@@ -1,1 +1,2 @@
 # WebcamMotionDetector
+Detects motion through the use of OpenCV library. Logs the time that somebody entered the frame and when it exited. Using this requires the .xml file shared in the repository. Results work best if the first frame that the webcam sees is a static background rather than something dynamic like a person. Either way it still logs when something enters the frame and exits it. Press "Q" to quit. Extremely blinding backgrounds might also throw off the detection a little bit.
